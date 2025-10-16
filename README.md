@@ -6,7 +6,7 @@ A RESTful API that returns user profile information along with random cat facts 
 
 ## Live Demo
 
-- **API Endpoint:** `http://localhost:3000/me`
+- **API Endpoint:** `hng13catapi-production.up.railway.app/me`
 - **Example Response:**
 ```json
 {
@@ -17,10 +17,10 @@ A RESTful API that returns user profile information along with random cat facts 
     "stack": "stack"
   },
   "timestamp": "2025-10-15T22:30:45.123Z",
-  "fact": "Cats sleep for around 13 to 16 hours a day."
+  "fact": "Cat fact"
 }
 ```
-- **API Endpoint:** `http://localhost:3000`
+- **API Endpoint:** `hng13catapi-production.up.railway.app`
 - **Example Response:**
 
 ```json
@@ -87,7 +87,7 @@ USER_EMAIL=your.email@example.com
 CAT_API_TIMEOUT=5000
 FALLBACK_CAT_FACT=Cats sleep for around 13 to 16 hours a day
 
-**Start the server**
+**Start the server locally**
 ```bash
 node server.js
 
@@ -108,7 +108,7 @@ Navigate to `http://localhost:3000/me`
     "stack": "Node.js/Express"
   },
   "timestamp": "2025-10-15T22:30:45.123Z",
-  "fact": "A cat's purr vibrates at a frequency of 25 to 150 hertz."
+  "fact": "Cat fact"
 }
 ```
 
