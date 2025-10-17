@@ -34,7 +34,7 @@ app.get('/me', async (req, res)=>{
         });
        
         const catFact = response.data.fact;
-        const timeStamp = new Date().toISOString();
+        const timestamp = new Date().toISOString();
         const responseData = {
             status: 'success',
             user: {
@@ -42,7 +42,7 @@ app.get('/me', async (req, res)=>{
                 name: 'Frank Joseph',
                 stack: 'Node.js/Express'
             },
-            timeStamp: timeStamp,
+            timestamp: timestamp,
             fact: catFact
         };
         res.setHeader('Content-Type', 'application/json');
